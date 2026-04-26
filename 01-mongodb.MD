@@ -67,4 +67,16 @@ Restart the service to make the changes effected.
 
 ```shell 
 systemctl restart mongod
+
+
 ```
+
+MongoDB is only listening on localhost.MongoDB's default port is 27017
+
+```shell 
+netstat -lntp
+
+```
+
+
+
