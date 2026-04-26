@@ -32,3 +32,12 @@ Start & Enable Redis Service
 systemctl enable redis 
 systemctl start redis 
 ```
+Redis default port: 6379
+
+When checking if Redis is listening, use:
+
+```shell 
+
+netstat -lntp | grep 6379
+
+```
