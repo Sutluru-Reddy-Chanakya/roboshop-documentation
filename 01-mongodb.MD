@@ -71,12 +71,13 @@ systemctl restart mongod
 
 ```
 
-MongoDB is only listening on localhost.MongoDB's default port is 27017
+MongoDB is only listening on localhost. MongoDB's default port is 27017. When you give the below command, the port should be listening at 27017:
 
-```shell 
+```shell
 netstat -lntp
-
 ```
+
+
 
 
 
